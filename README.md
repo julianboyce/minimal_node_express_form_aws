@@ -18,3 +18,5 @@ $ cd minimal_node_express_form_aws.git
 $ npm install
 
 $ nodemon server.js
+
+Point your browser to http://localhost:3000/aws_form
