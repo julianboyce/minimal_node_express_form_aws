@@ -1,12 +1,10 @@
 const express = require("express")
 const app = express()
 
-// Setup Serving static files in Express 
-// https://expressjs.com/en/starter/static-files.html
-app.use(express.static('public'))
-
-app.get("/", function(req, res) {
-    res.send("Hello World")
+app.get("/aws_form", function(req, res) {
+    res.sendFile("aws_form.html", { root: __dirname });
 })
-console.log("Express server listening on port 3000");
-app.listen(3000)
+
+app.listen(3000, function(){
+    console.log("Listening on port 3000!")
+});
