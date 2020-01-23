@@ -1,10 +1,18 @@
-Setup environment
+Clone or Fork minimal_node_express_setup
 ================================
+Clone or fork this repository
 
-Follow the instructions from github to either import from your own repository or fork this repository
+https://github.com/julianboyce/minimal_node_express_setup
+
+Follow the instructions from github to either import from your own repository or fork this repository into a new one named minimal_node_express_form_aws
 
 https://help.github.com/en/github/importing-your-projects-to-github/importing-a-repository-with-github-importer
 
-Once the repository is created follow the instructions here to setup the environment using the name minimal_node_express_setup which will be the basis for the remainder of the project.
+Setup environment
+================================
 
-https://github.com/julianboyce/minimal_node_express_setup
+$ git clone https://github.com/julianboyce/minimal_node_express_form_aws.git
+
+$ cd minimal_node_express_form_aws.git
+
+$ npm install
