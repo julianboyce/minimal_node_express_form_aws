@@ -16,3 +16,5 @@ $ git clone https://github.com/julianboyce/minimal_node_express_form_aws.git
 $ cd minimal_node_express_form_aws.git
 
 $ npm install
+
+$ nodemon server.js
