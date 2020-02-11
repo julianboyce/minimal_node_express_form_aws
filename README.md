@@ -33,6 +33,7 @@ $ vi ~/.bash_profile
 // Add the following entries to the bottom of this file
 
 export AWS_ACCESS_KEY=MY_ACCESS_KEY
+
 export AWS_SECRET_ACCESS_KEY=MY_AWS_SECRET_ACCESS_KEY
 
 $ source ~/.bash_profile // Apply changes to current shell
