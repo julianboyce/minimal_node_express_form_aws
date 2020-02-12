@@ -28,6 +28,15 @@ Amazon S3
 
 $ npm install --save aws-sdk
 
+Find your S3 access keys
+
+Navigate to Amazon IAM
+https://console.aws.amazon.com/iam/home#/home
+
+Select Users -> Select a user - > Security Credentials -> Create Access Key
+
+This will create an access key which you can see each time you log in to the IAM console BUT the secret key will only be shown to you once.  If you lose it you will need to generate a new key.
+
 $ vi ~/.bash_profile
 
 // Add the following entries to the bottom of this file
@@ -47,4 +56,3 @@ For user based operations, it should be in ~/.bash_profile,
 For non-login interactive shells, it should be in ~/.bashrc.
 
 Create a bucket (Example name is minimal-node-express-form-aws) The [workflow and instructions](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) are subject to change.
-
