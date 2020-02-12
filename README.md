@@ -28,6 +28,14 @@ Amazon S3
 
 $ npm install --save aws-sdk
 
+Create IAM user (TODO)
+
+Create Group (TODO)
+
+Give the group AmazonS3FullAccess
+
+Add the new user to the group
+
 Find your S3 access keys
 
 Navigate to Amazon IAM
