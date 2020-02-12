@@ -39,7 +39,7 @@ This will create an access key which you can see each time you log in to the IAM
 
 $ vi ~/.bash_profile
 
-// Add the following entries to the bottom of this file
+// Add the following entries to the bottom of this file and replace with the credentials from above.
 
 export AWS_ACCESS_KEY=MY_ACCESS_KEY
 
