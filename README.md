@@ -21,6 +21,21 @@ $ nodemon server.js
 
 Point your browser to http://localhost:3000/aws_form
 
+Amazon Create IAM User
+================================
+
+Better to create an Admin Root user in the console and then all other users via [https://docs.aws.amazon.com/cli/latest/userguide/cli-services-iam.html](CLI)
+
+IAM User [https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users](best practices)
+
+[https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html](Create an IAM User)
+
+
+Using CLI is an option
+
+Amazon Create IAM Group and assign priviledges
+================================
+
 Amazon S3
 ================================
 
