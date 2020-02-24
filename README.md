@@ -24,6 +24,8 @@ Point your browser to http://localhost:3000/aws_form
 Amazon Create IAM User
 ================================
 
+Install [aws CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+
 Better to create an Admin Root user in the console and then all other users via
 [CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-iam.html)
 
